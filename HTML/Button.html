@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <title>Button Practice</title>
+    </head>
+    <body>
+        <!-- <a href="div.html">  can easily add a link around a button to have it send you somewhere-->
+        <button onlclick="doSomething()" style="font-size:25px; background-color:grey; color:lightblue; border-radius:25px">click me</button>
+        <!-- </a> -->
+        <p id="greeting">Hello</p>
+        <script>
+            function doSomething(){
+                document.getElementById("greeting").innerHTML = "newValue"
+        }
+        </script>
+    </body>
+</html>
