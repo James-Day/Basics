@@ -1,2 +1,2 @@
 # Basics
-This repository will be full of the basics for several different languages that I plan to learn over the coming weeks.
+This repository will be full of the basics for several different languages that I plan to learn.
